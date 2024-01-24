@@ -1,4 +1,4 @@
-# Aula1 
+# Aula1 - Revisão: HTML, CSS e JS na Prática.
 Começamos com o HTML.
 Começamos com a estrutura básica, ! + enter
 head = cabeça da página
@@ -73,3 +73,9 @@ como tirar as bolinhas da lista.
 dar um reset no css
 
 a ordem do css importa!!
+
+IMPORTANTE! 
+    imagina que sem querer demos um git init numa pasta mãe. 
+    para desfazer basta escrever rm -r .git
+
+# Aula 2 - Estilo Avançado e Posicionamento: Transformando Layouts.
