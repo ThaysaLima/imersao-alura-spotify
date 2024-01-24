@@ -46,3 +46,22 @@ body {
 }
 
 /* estilizando a aba sua biblioteca */
+
+.library {
+    background-color: #121212;
+    border-radius: 8px;
+    display: flex;
+    /* junto com o display flex usamos outras propriedades como o justify-content: ; para deixar na posição que queremos */
+    justify-content: space-between;
+    flex-direction: column; 
+    /* tb usando junto com o display flex, e diz assim "esse posicionamento vai ficar flexível para qual direção?" */
+        /* o column serve para separar eles em colunas, quando vemos lá no devtools, podemos notar que ele ta "separado em colunas totalizando 4, que são as 4 div e setion que temos dentro do library*/
+    padding: 4px 8px;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 10px;
+        /* serve para ele não ficar grudado lá em cima */
+}
+
+
