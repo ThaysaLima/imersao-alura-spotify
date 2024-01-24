@@ -112,3 +112,5 @@ entender melhor sobre o flex-start.
 
 DESAFIO DA AULA: 
 FAZER O FOOTER. 
+
+# Aula 3 - Layout Flexbox, Pseudo-classes e Responsividade em CSS. 
