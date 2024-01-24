@@ -97,3 +97,9 @@ Podemos ter mais de uma classe por elemento, até 3 classes é ok.
          <span class="text title"></span>
 
          mas pq repetimos? pq vamos ter pontos comuns e ai podemos apenas criar outra div com os sub titulos.
+
+sobre o (display) flexbox/flex, foi uma maneira que o css encontrou de fazer um alinhamento mais flexível.
+junto com o display flex usamos outras propriedades como o justify-content: ; para deixar na posição que queremos
+tb usando junto com o display flex a propriedade flex-direction, e diz assim "esse posicionamento vai ficar flexível para qual direção?" - no caso aqui em colunas/column serve para separar eles em colunas, quando vemos lá no devtools, podemos notar que ele ta "separado em colunas totalizando 4, que são as 4 div e setion que temos dentro do library
+
+margin-top: ; - serve para ele não ficar colado com a outra box de cima. 
