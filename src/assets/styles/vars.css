@@ -1,0 +1,7 @@
+/*vamos criar o root = raíz, que é onde vai ficar todas as nossas variáveis*/
+
+:root{
+    /*FONT*/
+    --font-dm-sans: "DM Sans", sans-serif; /*declaramos uma variável que vai receber uma fonte.*/
+    
+} 
