@@ -96,4 +96,4 @@ Podemos ter mais de uma classe por elemento, até 3 classes é ok.
     exemplo: 
          <span class="text title"></span>
 
-         mas pq repetimos? pq vamos ter pontos comuns.
+         mas pq repetimos? pq vamos ter pontos comuns e ai podemos apenas criar outra div com os sub titulos.
