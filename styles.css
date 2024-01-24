@@ -97,4 +97,12 @@ body {
     padding-right: 8px;
 }
 
+/* agora vamos arrumar o plus, utilizando o fa-plus
+ .library .library_button .fa-plus {
+    margin: 24px 10px;
+} esse deu errado, porque ele esta dentro do library_content e não library_button */
+
+.library .library_content .fa-plus {
+    margin: 24px 10px;
+}
 
