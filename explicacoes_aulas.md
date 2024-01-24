@@ -79,3 +79,21 @@ IMPORTANTE!
     para desfazer basta escrever rm -r .git
 
 # Aula 2 - Estilo Avançado e Posicionamento: Transformando Layouts.
+
+Bloco do menu lateral de biblioteca. 
+
+Criamos uma div para a biblioteca, library. 
+e dentro dela criamos outra div que vai ter o conteúdo dessa library, chamada library_content
+
+PESQUISAR SOBRE 'PADRÃO BEM PARA CSS', METODOLOGIA DE ORGANIZAÇÃO DE ESCRITA DE CSS.
+    Basicamente funciona assim:
+        temos a class library e dentro da library vamos mexer no conteúdo então temos o library_content, se tivessemos outra coisa para mexer dentro desse conteúdo iriamos escrever library_content_x = x para outro conteúdo.
+
+analogia
+as div é a casa e as section são os cômodos. 
+
+Podemos ter mais de uma classe por elemento, até 3 classes é ok.  
+    exemplo: 
+         <span class="text title"></span>
+
+         mas pq repetimos? pq vamos ter pontos comuns.
