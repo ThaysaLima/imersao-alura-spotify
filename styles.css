@@ -21,28 +21,36 @@ body {
     background: #121212;
     display: flex;
     border-radius: 8px;
-    padding: 16px 0 0 16px;
+    /* padding: 16px 0 0 16px; */
 }
 
 .sidebar_navigation .logo img {
     width: 80px;
 }
 
+/* lista - início e buscar */
 .sidebar nav ul {
     margin-top: 20px;
-    padding: 0 20px 10px 10px;
+    padding: 0 20px 10px 0;
 }
 
 .sidebar ul li {
     padding: 10px 0;
+    width: 260px;
 }
 
 .sidebar nav ul li a {
     color: #b3b3b3;
     text-decoration: none;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 16px;
     font-family: "DM Sans", sans-serif;
+}
+
+.sidebar nav ul li .fa {
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: 300;
 }
 
 /* estilizando a aba sua biblioteca */
@@ -58,6 +66,7 @@ body {
         /* o column serve para separar eles em colunas, quando vemos lá no devtools, podemos notar que ele ta "separado em colunas totalizando 4, que são as 4 div e setion que temos dentro do library*/
     padding: 4px 8px;
     color: #b3b3b3;
+    font-family: "DM Sans", sans-serif;
     font-weight: 600;
     font-size: 14px;
     margin-top: 10px;
@@ -82,7 +91,6 @@ body {
     font-size: 14px;
     /* antes ela tinha colocado 1rem, mas mudou porque é assunto da próxima aula. */
     font-weight: 700;
-    font-family: "DM Sans", sans-serif;
     text-align: center;
     text-decoration: none;
     text-transform: none;
@@ -116,7 +124,7 @@ body {
     gap: 20px;
     background-color: #242424;
     color: #b3b3b3;
-    /* adicionada por mim mesma */ font-family: "DM Sans", sans-serif;
+    /* adicionada por mim mesma */ 
     font-weight: 600;
     font-size: 14px;
     margin: 8px 0px;
@@ -195,7 +203,16 @@ body {
 
 /*QUARTA COLUNA*/
 .languages .languages_button {
+    align-items: center;
     background-color: transparent;
     /*podemos fazer um shorhand e colocar tudo da borda num local só, border(tamanho), border(tipo de borda), border-color(cor da borda)*/
-    border: 1px solid #878787 ;
+    border: 1px solid #878787;
+    border-radius: 9999px;
+    color: #fff;
+    font-weight: 700; /* mesma coisa que o bold */
+    cursor: pointer;
+    width: 170px;
+    margin: 8px;
+    padding: 8px;
+    
 }
