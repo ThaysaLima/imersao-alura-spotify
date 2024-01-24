@@ -103,3 +103,6 @@ junto com o display flex usamos outras propriedades como o justify-content: ; pa
 tb usando junto com o display flex a propriedade flex-direction, e diz assim "esse posicionamento vai ficar flexível para qual direção?" - no caso aqui em colunas/column serve para separar eles em colunas, quando vemos lá no devtools, podemos notar que ele ta "separado em colunas totalizando 4, que são as 4 div e setion que temos dentro do library
 
 margin-top: ; - serve para ele não ficar colado com a outra box de cima. 
+
+
+colocamos .library .library_content porque precisamos específicar que o library_content esta dentro de outra classe, se não colocarmos da maneira correta (.library .library_content) ele não irá aplicar corretamente. = isso serve para qualquer classe que esteja dentro de outra

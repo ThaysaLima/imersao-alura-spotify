@@ -64,4 +64,27 @@ body {
         /* serve para ele não ficar grudado lá em cima */
 }
 
+/* seguindo a ordem */
 
+/* colocamos .library .library_content porque precisamos específicar que o library_content esta dentro de outra classe, se não colocarmos da maneira correta (.library .library_content) ele não irá aplicar corretamente */
+.library .library_content {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* estilizando somente o button */
+.library .library_button {
+    display: flex;
+    margin-right: 10px;
+    color: #b3b3b3;
+    background-color: transparent;
+    border: 0;
+    font-size: 14px;
+    /* antes ela tinha colocado 1rem, mas mudou porque é assunto da próxima aula. */
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    padding: 20px 10px;
+}
