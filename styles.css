@@ -120,3 +120,27 @@ body {
     margin: 8px 0px;
     padding: 16px 20px;
 }
+
+/* agora vamos arrumar a section_content = conteúdo da section */
+.section-playlist .section-playlist_content {
+    display: flex;
+    flex-direction: column;
+}
+
+/* aqui ele vai estilizar todos os textos da section-playlist, mas temos que depois mudar só o título da text title */
+.section-playlist_content .text{
+    padding-bottom: 14px;
+    color: #fff;
+}
+
+/* text title, vai ter um peso maior */
+
+.section-playlist_content .title{
+    font-weight: 700;
+}
+
+/* text subtitle, vai ter um peso menor e um tamanho tb */
+.section-playlist_content .subtitle{
+    font-weight: 500;
+    font-size: 12px;
+}
