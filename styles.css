@@ -88,3 +88,13 @@ body {
     text-transform: none;
     padding: 20px 10px;
 }
+
+/* agora vamos arrumar os icons, que não estao bem centralizado utilizando o fa */
+.library .library_button .fa {
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: 300;
+    padding-right: 8px;
+}
+
+
