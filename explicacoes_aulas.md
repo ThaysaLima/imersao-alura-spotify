@@ -106,3 +106,9 @@ margin-top: ; - serve para ele não ficar colado com a outra box de cima.
 
 
 colocamos .library .library_content porque precisamos específicar que o library_content esta dentro de outra classe, se não colocarmos da maneira correta (.library .library_content) ele não irá aplicar corretamente. = isso serve para qualquer classe que esteja dentro de outra
+
+entender melhor sobre o flex-start. 
+
+
+DESAFIO DA AULA: 
+FAZER O FOOTER. 
