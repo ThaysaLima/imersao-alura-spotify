@@ -106,3 +106,17 @@ body {
     margin: 24px 10px;
 }
 
+/* agora vamos arrumar a section(cômodos) */
+.section-playlist{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    /* gap serve para dizer qual o tamanho do espaço para o space-between */
+    gap: 20px;
+    background-color: #242424;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 8px 0px;
+    padding: 16px 20px;
+}
