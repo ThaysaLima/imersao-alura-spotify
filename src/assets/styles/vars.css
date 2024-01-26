@@ -7,7 +7,7 @@
     /*COLORS*/
     --bg-icon-color: #131313;
     --bg-arrow-color: rgba(0,0,07);
-                        /* o 07 é o tamanho da opacidade. */
+                        /* o 07 é o tamanho da opacidade, quanto maior mais opaco */
     --bg-search-color: #242424;
     --bg-subscribe-color: #a7a7a7;
     --bg-login-color: #000;
