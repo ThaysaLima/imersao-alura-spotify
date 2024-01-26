@@ -132,5 +132,13 @@ criamos o arquivo vars.css, nele vamos colocar todas as variáveis que vamos cri
 
     agora temos que ir la no nosso css principal e colocar no .body a nossa variável criada. 
         body {
-            font-family: var(--font-dm-sans); /*isso serve para não termo problemas com a fonte que tem que ser igual em toda a página.*/
+            font-family: var(--font-dm-sans); /*isso serve para não termos problemas com a fonte que tem que ser igual em toda a página.*/
         }.
+
+VAMOS FAZER A BUSCA AGORA: 
+
+O id é como se fosse um RG, não vai existir outro igual. 
+maxlength é para quantos caractéres no máximo vai poder se colocado naquele input
+
+placeholder é o texto que já fica ali no input antes de escrevermos algo. 
+
