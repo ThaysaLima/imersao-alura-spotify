@@ -133,4 +133,4 @@ criamos o arquivo vars.css, nele vamos colocar todas as variáveis que vamos cri
     agora temos que ir la no nosso css principal e colocar no .body a nossa variável criada. 
         body {
             font-family: var(--font-dm-sans); /*isso serve para não termo problemas com a fonte que tem que ser igual em toda a página.*/
-        }
+        }.

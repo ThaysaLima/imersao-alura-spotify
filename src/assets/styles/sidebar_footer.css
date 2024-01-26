@@ -137,7 +137,7 @@ body {
     flex-direction: column;
 }
 
-/* aqui ele vai estilizar todos os textos da section-playlist, mas temos que depois mudar só o título da text title */
+/* aqui ele vai estilizar todos os textos da section-playlist, mas temos que depois mudar só o título da text title, título principal */
 .section-playlist_content .text{
     padding-bottom: 14px;
     color: #fff;
