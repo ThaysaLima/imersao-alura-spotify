@@ -114,3 +114,23 @@ DESAFIO DA AULA:
 FAZER O FOOTER. 
 
 # Aula 3 - Layout Flexbox, Pseudo-classes e Responsividade em CSS. 
+
+Aqui organizamos as páginas onde criamos a pasta src com os nossas assets que contem os icons e imagens. 
+depois temos que ir mudar os nossos links com os novos caminhos. 
+
+criamos tb a pasta styles para conter todos os css. 
+
+renomeamos o arquivo que estava styles.css para um que condizesse mais com o que tinha no arquivo que vai ser sidebar_footer.css
+
+
+criamos o arquivo vars.css, nele vamos colocar todas as variáveis que vamos criar.  
+    a primeira que criamos vai ser uma variável para a principal fonte do site (para quando for necessária trocar,s er mais fácil).
+        :root{
+                    /*FONT*/
+            --font-dm-sans: "DM Sans", sans-serif; /*declaramos uma variável que vai receber uma fonte.*/
+        } 
+
+    agora temos que ir la no nosso css principal e colocar no .body a nossa variável criada. 
+        body {
+            font-family: var(--font-dm-sans); /*isso serve para não termo problemas com a fonte que tem que ser igual em toda a página.*/
+        }
