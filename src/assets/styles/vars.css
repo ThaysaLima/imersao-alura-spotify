@@ -3,4 +3,14 @@
 :root{
     /*FONT*/
     --font-dm-sans: "DM Sans", sans-serif; /*declaramos uma variável que vai receber uma fonte.*/
+
+    /*COLORS*/
+    --bg-icon-color: #131313;
+    --bg-arrow-color: rgba(0,0,07);
+                        /* o 07 é o tamanho da opacidade. */
+    --bg-search-color: #242424;
+    --bg-subscribe-color: #a7a7a7;
+    --bg-login-color: #000;
+    --bg-header_navigation-color: #121212;
+    --bg-header_search_input-color: #fff;
 } 

@@ -142,3 +142,7 @@ maxlength é para quantos caractéres no máximo vai poder se colocado naquele i
 
 placeholder é o texto que já fica ali no input antes de escrevermos algo. 
 
+
+
+quando temos RGBA significa que o vermelho, verde e azul vão ser mais opacos (A)
+
