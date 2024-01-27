@@ -146,3 +146,53 @@ placeholder é o texto que já fica ali no input antes de escrevermos algo.
 
 quando temos RGBA significa que o vermelho, verde e azul vão ser mais opacos (A)
 
+
+# DICA DE OURO
+    O ALLIGN-ITENS E JUSTIFY CONTENT, SÓ FUNCIONAM SE O DISPLAY FOR FLEX.
+
+o justify-content só arruma com as suas propriedades horizontalmente. 
+        flex-start: Items align to the left side of the container.
+        flex-end: Items align to the right side of the container.
+        center: Items align at the center of the container.
+        space-between: Items display with equal spacing between them.
+        space-around: Items display with equal spacing around them. 
+
+o align-items só arruma com as suas propriedade verticalmente. 
+        flex-start: Items align to the top of the container.
+        flex-end: Items align to the bottom of the container.
+        center: Items align at the vertical center of the container.
+        baseline: Os itens são exibidos na linha de base do contêiner.
+        stretch: Os itens são esticados para caber no contêiner.
+
+Flex-direction essa propriedade define em qual direção eles irão ocupar no conteiner. 
+        row: Items are placed the same as the text direction.
+        row-reverse: Items are placed opposite to the text direction.
+        column: Items are placed top to bottom.
+        column-reverse: Items are placed bottom to top.
+
+Quando você define a direção para uma linha ou coluna reversa, start e end também são reversos.
+
+!Note que quando a direção é em coluna, justify-content muda para a vertical e align-items para a horizontal.
+    então no caso, usamos o flex-direction column então a direção agora é para baixo.
+
+!Às vezes, reverter a ordem de uma coluna ou de um container não é suficiente. Nesses casos, podemos aplicar a propriedade order para itens individuais. Por padrão, itens tem um valor de 0, mas nós podemos usar essa propriedade para alterar para um valor inteiro positivo ou negativo. 
+    order: 1;
+
+!Outra propriedade que você pode aplicar para itens individuais é align-self. Esta propriedade aceita os mesmos valores que align-items e seus valores são usados para o item específico.
+
+Flex-wrap aceita os seguintes valores:
+        nowrap: Todos os itens são apertados em uma única linha.
+        wrap: Itens se separam em linhas adicionais.
+        wrap-reverse: Itens se separam em linhas adicionais em reverso.
+
+!As duas propriedades flex-direction e flex-wrap são usadas tão frequentemente juntas que uma propriedade abreviada flex-flow foi criada para combiná-las. Essa propriedade aceita o valor das duas propriedades separados por um espaço.
+Por exemplo, você pode usar flex-flow: row wrap para aplicar a direção de linha e quebrar em múltiplas linhas.
+
+align-content para definir como múltiplas linhas devem ser espaçadas uma das outras. Essa propriedade recebe os seguintes valores:
+        flex-start: Linhas são agrupadas no topo do container.
+        flex-end: Linhas são agrupadas no fundo do container.
+        center:Linhas são agrupadas no centro vertical do container.
+        space-between: Linhas são posicionadas com espaço igual entre elas.
+        space-around: Linhas são posicionadas com espaço igual em torno delas.
+        stretch: Linhas se esticam para preencher o container.
+                Isso pode ser confuso, mas align-content determina o espaçamento entre linhas, enquanto align-items determina como as linhas como um todo são alinhadas dentro do container. Quando há só uma linha, align-content não tem nenhum efeito.
